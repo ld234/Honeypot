@@ -1,0 +1,65 @@
+int main(int argc, char * argv){
+	
+}
+
+IDS
+private eventNumMap <int,string>
+private eventTypeMap<string, pair <EventType, bool> >
+
+bool readEventFile(filename){
+	open file (events.txt)
+	while(extract the field){
+		for each line {
+			if (eventType is not CDE)
+				return false
+			elseif (eventType is D){
+				if (min and max are int and weight is int){
+					
+				}
+				else{
+					return false
+				}
+			}
+			else{
+				if (min and max are double and weight is int){
+					
+				}
+				else{
+					return false
+				}
+			}
+			if (fieldNum != 6)
+				return false
+		}
+	}
+	return true;
+}
+
+IDS utility 
+bool readStats(filename, container){
+	open file (stats.txt)
+	while(extract the field){
+		for each line{
+			if (check consistency with events.txt)
+				return false
+			elseif (eventType is D){
+				if (min and max are int and weight is int){
+					
+				}
+				else{
+					return false
+				}
+			}
+			else{
+				if (min and max are double and weight is int){
+					
+				}
+				else{
+					return false
+				}
+			}
+			if (fieldNum != 6)
+				return false
+		}
+	}
+}
